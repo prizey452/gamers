@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Republic of Gamers</title>
+    <link rel="stylesheet" type="text/css" href="./main.css">
+</head>
+<body>
+    <main>
+        <h1>THE WAY IT'S MEANT TO BE PLAYED</h1>
+        <table class="table">
+            <tbody>
+                
+            </tbody>
+        </table>
+        <div class="container">
+            <form action="store.php" method="post">
+                <img src="anthem2.jpg" alt=""><br>
+                <label for="username">username: </label>
+                <input type="text" id="username" name="username" required="true"><br>
+                <label for="phone_number">phone number: </label>
+                <input type="tel" id="phone_number" name="phone_number" required="true"><br>
+                <label for="email">email: </label>
+                <input type="email" id="email" name="email" required="true"><br>
+                <label for="age">age: </label>
+                <input type="text" id="age" name="age" required="true"><br>
+                <label for="location">location: </label>
+                <input type="text" id="location" name="location" required="true"><br>
+                <label for="gender">gender: </label>
+                <select name="gender" id="gender">
+                    <option value="male">male</option>
+                    <option value="female">female</option>
+                    <option value="others">others</option>
+                </select><br>
+                <label for="date">date: </label>
+                <input type="date" id="date_of_birth" name="date_of_birth" required="true"><br>
+                <label for="gaming_platform">gaming platform: </label>
+                <select name="gaming_platform" id="gaming_platform">
+                    <option value="google-stadia">google stadia</option>
+                    <option value="pc">pc</option>
+                    <option value="xbox">xbox</option>
+                    <option value="playstation">playstation</option>
+                    <option value="nintendo">nintendo</option>
+                    <option value="steam-valve">steam valve</option>
+                </select><br>
+                <label for="game_category">game category: </label>
+                <select name="game_category" id="game_category">
+                    <option value="action">Action</option>
+                    <option value="sports">Sports</option>
+                    <option value="horror">Horror</option>
+                    <option value="animated">Animated</option>
+                </select><br>
+                <label for="favourite_game">favourite game: </label>
+                <input type="text" id="favourite_game" name="favourite_game" required="true"><br>
+                <input type="submit" value="Join gamers">
+            </form>
+        </div>
+    </main>
+</body>
+</html>
